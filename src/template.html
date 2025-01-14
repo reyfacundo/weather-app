@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hemlo wormld</h1>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+        />
+    </head>
+    <body>
+        <span class="background">
+            <div class="main">
+                <div class="weather">Sunny</div>
+                <form action="#" class="location">
+                    <button type="submit">
+                        <span class="material-symbols-outlined"> search </span>
+                    </button>
+                    <input type="text" placeholder="                   " />
+                    <!-- <textarea name="location" placeholder="China"></textarea> -->
+                    <!-- <input type="text" placeholder="London" /> -->
+                </form>
+                <div class="temp">16°</div>
+            </div>
+        </span>
+        <label class="switch">
+            <input type="checkbox" class="checkbox" data-unit="C" />
+            <span class="slider round">
+                <span class="toggle-label left">C</span>
+                <span class="toggle-label right">F</span>
+            </span>
+        </label>
+
+        <div class="content"></div>
+    </body>
 </html>
